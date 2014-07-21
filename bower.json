@@ -1,0 +1,17 @@
+{
+  "name": "simpletabber",
+  "version": "1.0.0",
+  "homepage": "https://github.com/dbrekalo/simpletabber",
+  "authors": [
+    "Damir Brekalo <dbrekalo@gmail.com>"
+  ],
+  "description": "Simple jQuery plugin for tabbed content",
+  "main": "dist/tabber.min.js",
+  "keywords": [
+    "tabs",
+    "tab",
+    "tabber",
+    "plugin"
+  ],
+  "license": "MIT"
+}
