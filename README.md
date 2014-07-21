@@ -1,4 +1,4 @@
-#Simpleprompt
+#Simpletabber
 
 Simple jQuery plugin for tabbed content
 
