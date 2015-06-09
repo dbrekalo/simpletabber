@@ -24,7 +24,7 @@
 			this.$tabs = this.$el.find(this.options.tabSelector);
 			this.numTabs = this.$tabBtns.length;
 
-			var $selectedTab = this.$tabs.find('.' + this.options.tabActiveClass.split(" ").join('.'));
+			var $selectedTab = this.$tabs.filter('.' + this.options.tabActiveClass.split(' ').join('.'));
 
 			if ($selectedTab.length) {
 
@@ -116,7 +116,7 @@
 				this.$tabBtns.remove();
 			}
 
-			delete this.$el.data().tabber;
+			delete this.$el.data()['tabber'];
 
 		}
 

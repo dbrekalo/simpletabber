@@ -24,7 +24,7 @@
 			this.$tabs = this.$el.find(this.options.tabSelector);
 			this.numTabs = this.$tabBtns.length;
 
-			var $selectedTab = this.$tabs.find('.' + this.options.tabActiveClass.split(" ").join('.'));
+			var $selectedTab = this.$tabs.filter('.' + this.options.tabActiveClass.split(' ').join('.'));
 
 			if ($selectedTab.length) {
 
@@ -89,7 +89,7 @@
 			this.$tabs.removeClass(this.options.tabActiveClass);
 			$activeTab.addClass( this.options.tabActiveClass );
 
-			this.$tabBtns.removeClass(this.options.tabBtnActiveClass)
+			this.$tabBtns.removeClass(this.options.tabBtnActiveClass);
 			$activeBtn.addClass(this.options.tabBtnActiveClass);
 
 			this.options.afterRender && this.options.afterRender($activeTab, this);
